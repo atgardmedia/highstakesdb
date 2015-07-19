@@ -18,8 +18,8 @@
     </author>
 	
 	<icon src="icon.png" />
-	
-	<preference name="BackgroundColor" value="0xff2f5886"/>
+	<gap:splash src="splash.png" />
+
 	
 	<!--
 	
@@ -29,7 +29,7 @@
 	<icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
 	
-	<gap:splash src="splash.png" />
+	
 	
 	<preference name=”backgroundColor” value=”0xff38c0f4″ />
 	

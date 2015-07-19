@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.helloworld"
+        version   = "1.0.0">
+
+    <name>High Stakes Database</name>
+
+    <description>
+        High Stakes Database
+    </description>
+
+    <author href="http://www.highstakesdb.com" email="info@highstakesdb.com.com">
+        High Stakes Database
+    </author>
+	
+	<icon src="icon.png" />
+	
+	<!--
+	
+	<icon src="ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+	
+	<gap:splash src="splash.png" />
+	
+	<preference name=”backgroundColor” value=”0xff38c0f4″ />
+	
+	-->

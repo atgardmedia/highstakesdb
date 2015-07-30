@@ -32,7 +32,8 @@ body>div {
     function openPage(url)
 	{
 		
-        var ref = window.open(url, '_blank', 'location=yes');
+        //var ref = window.open(url, '_blank', 'location=yes');
+		var ref = window.open('test.html');
         ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
         ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
         ref.addEventListener('exit', function() { alert(event.type); });
